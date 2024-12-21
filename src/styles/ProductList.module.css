@@ -1,0 +1,26 @@
+.productList {
+  display: grid; 
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  gap: 20px; 
+  width: 100%; 
+  justify-items: center; 
+}
+
+.productItem {
+  background-color: #f9f9f9; 
+  border: 1px solid #ddd;
+  border-radius: 5px; 
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  height: 350px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.productImage {
+  width: 200px; 
+  height: 267px; 
+  object-fit: cover; 
+  margin-bottom: 10px;
+}

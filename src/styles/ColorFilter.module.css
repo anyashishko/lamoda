@@ -1,0 +1,36 @@
+.colorFilter {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 20px;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .colorFilter h4 {
+    margin-bottom: 10px; 
+    font-size: 1.1em; 
+    color: #444; 
+  }
+  
+  .colorFilter label {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 5px; 
+  }
+  
+  .colorFilter input[type="checkbox"] {
+    margin-right: 5px; 
+  }
+
+  .colorCheckboxes {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap; 
+  }
+
+  .colorCheckboxes label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
